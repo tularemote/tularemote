@@ -1,198 +1,192 @@
-[30Apr2025 23:33:10.525] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[30Apr2025 23:33:10.529] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1026-azure
-[30Apr2025 23:33:10.632] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/tularemote/servidor_minecraft/config/fml.toml is not correct. Correcting
-[30Apr2025 23:33:10.635] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
-[30Apr2025 23:33:10.636] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
-[30Apr2025 23:33:10.637] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
-[30Apr2025 23:33:10.638] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
-[30Apr2025 23:33:10.658] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[30Apr2025 23:33:10.727] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/tularemote/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[30Apr2025 23:33:10.946] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/tularemote/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[30Apr2025 23:33:10.947] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/tularemote/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[30Apr2025 23:33:10.949] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/tularemote/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[30Apr2025 23:33:10.950] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/tularemote/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[30Apr2025 23:33:11.041] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[30Apr2025 23:33:12.503] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[30Apr2025 23:33:18.132] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[30Apr2025 23:33:18.134] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[30Apr2025 23:33:18.690] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[30Apr2025 23:33:19.177] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[30Apr2025 23:33:19.695] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[30Apr2025 23:33:19.724] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/tularemote/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/assets/.mcassetsroot' uses unexpected schema
-[30Apr2025 23:33:19.725] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/tularemote/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/data/.mcassetsroot' uses unexpected schema
-[30Apr2025 23:33:21.367] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[30Apr2025 23:33:21.536] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
-[30Apr2025 23:33:22.189] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[30Apr2025 23:33:22.190] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[30Apr2025 23:33:22.190] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[30Apr2025 23:33:22.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[30Apr2025 23:33:22.311] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[30Apr2025 23:33:22.347] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[30Apr2025 23:33:22.452] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[30Apr2025 23:33:22.453] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[30Apr2025 23:33:22.453] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[30Apr2025 23:33:22.454] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[30Apr2025 23:33:22.483] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
-[30Apr2025 23:33:22.485] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[30Apr2025 23:33:22.486] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[30Apr2025 23:33:22.486] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[30Apr2025 23:33:22.486] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[30Apr2025 23:33:22.487] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[30Apr2025 23:33:22.487] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[30Apr2025 23:33:22.488] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[30Apr2025 23:33:22.488] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
-[30Apr2025 23:33:22.577] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[30Apr2025 23:33:28.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[30Apr2025 23:33:29.484] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Apr2025 23:33:29.487] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Apr2025 23:33:29.957] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Apr2025 23:33:30.408] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Apr2025 23:33:30.890] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Apr2025 23:33:31.437] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Apr2025 23:33:31.897] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[30Apr2025 23:33:32.406] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[30Apr2025 23:33:32.906] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[30Apr2025 23:33:33.411] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[30Apr2025 23:33:33.894] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[30Apr2025 23:33:34.396] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[30Apr2025 23:33:34.910] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
-[30Apr2025 23:33:35.405] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
-[30Apr2025 23:33:35.915] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
-[30Apr2025 23:33:36.403] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[30Apr2025 23:33:36.897] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
-[30Apr2025 23:33:37.388] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
-[30Apr2025 23:33:37.915] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
-[30Apr2025 23:33:38.392] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
-[30Apr2025 23:33:38.898] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
-[30Apr2025 23:33:39.409] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
-[30Apr2025 23:33:39.887] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
-[30Apr2025 23:33:40.396] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
-[30Apr2025 23:33:40.912] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
-[30Apr2025 23:33:41.406] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 29%
-[30Apr2025 23:33:41.906] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
-[30Apr2025 23:33:42.413] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
-[30Apr2025 23:33:42.912] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 35%
-[30Apr2025 23:33:43.387] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
-[30Apr2025 23:33:43.889] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 40%
-[30Apr2025 23:33:44.388] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
-[30Apr2025 23:33:44.888] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 45%
-[30Apr2025 23:33:45.389] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
-[30Apr2025 23:33:45.926] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 49%
-[30Apr2025 23:33:46.388] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 53%
-[30Apr2025 23:33:46.893] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
-[30Apr2025 23:33:47.387] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 58%
-[30Apr2025 23:33:47.891] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
-[30Apr2025 23:33:48.390] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
-[30Apr2025 23:33:48.890] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 67%
-[30Apr2025 23:33:49.413] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
-[30Apr2025 23:33:49.887] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
-[30Apr2025 23:33:50.433] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 74%
-[30Apr2025 23:33:50.889] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 77%
-[30Apr2025 23:33:51.390] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 81%
-[30Apr2025 23:33:51.893] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
-[30Apr2025 23:33:52.413] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
-[30Apr2025 23:33:52.894] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
-[30Apr2025 23:33:53.399] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 92%
-[30Apr2025 23:33:53.900] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 96%
-[30Apr2025 23:33:54.361] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 25475 ms
-[30Apr2025 23:33:54.362] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (31.888s)! For help, type "help"
-[30Apr2025 23:33:54.377] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[30Apr2025 23:33:54.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[30Apr2025 23:33:54.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: home/codespace/.python/current/bin/python /workspaces/tularemote/msx.py<--[HERE]
-[30Apr2025 23:34:54.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[30Apr2025 23:34:54.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: admin<--[HERE]
-[30Apr2025 23:35:35.155] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: KaliOS[/127.127.128.20:41923] logged in with entity id 284 at (-12.5, 72.0, 64.5)
-[30Apr2025 23:35:35.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KaliOS joined the game
-[30Apr2025 23:36:05.283] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KaliOS lost connection: Timed out
-[30Apr2025 23:36:05.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KaliOS left the game
-[30Apr2025 23:37:14.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /advancement (grant|revoke)
-[30Apr2025 23:37:14.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /attribute <target> <attribute> (get|base|modifier)
-[30Apr2025 23:37:14.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
-[30Apr2025 23:37:14.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /bossbar (add|remove|list|set|get)
-[30Apr2025 23:37:14.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clear [<targets>]
-[30Apr2025 23:37:14.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clone (<begin>|from)
-[30Apr2025 23:37:14.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /damage <target> <amount> [<damageType>]
-[30Apr2025 23:37:14.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /data (merge|get|remove|modify)
-[30Apr2025 23:37:14.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /datapack (enable|disable|list)
-[30Apr2025 23:37:14.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /debug (start|stop|function)
-[30Apr2025 23:37:14.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /defaultgamemode <gamemode>
-[30Apr2025 23:37:14.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /difficulty [peaceful|easy|normal|hard]
-[30Apr2025 23:37:14.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /effect (clear|give)
-[30Apr2025 23:37:14.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /me <action>
-[30Apr2025 23:37:14.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /enchant <targets> <enchantment> [<level>]
-[30Apr2025 23:37:14.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /experience (add|set|query)
-[30Apr2025 23:37:14.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /xp -> experience
-[30Apr2025 23:37:14.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
-[30Apr2025 23:37:14.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /fillbiome <from> <to> <biome> [replace]
-[30Apr2025 23:37:14.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /forceload (add|remove|query)
-[30Apr2025 23:37:14.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /function <name>
-[30Apr2025 23:37:14.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gamemode <gamemode> [<target>]
-[30Apr2025 23:37:14.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gamerule (announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersSleepingPercentage|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnRadius|spectatorsGenerateChunks|tntExplosionDropDecay|universalAnger|waterSourceConversion)
-[30Apr2025 23:37:14.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /give <targets> <item> [<count>]
-[30Apr2025 23:37:14.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /help [<command>]
-[30Apr2025 23:37:14.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /item (replace|modify)
-[30Apr2025 23:37:14.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /kick <targets> [<reason>]
-[30Apr2025 23:37:14.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /kill [<targets>]
-[30Apr2025 23:37:14.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /list [uuids]
-[30Apr2025 23:37:14.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /locate (structure|biome|poi)
-[30Apr2025 23:37:14.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /loot (replace|insert|give|spawn)
-[30Apr2025 23:37:14.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /msg <targets> <message>
-[30Apr2025 23:37:14.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tell -> msg
-[30Apr2025 23:37:14.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /w -> msg
-[30Apr2025 23:37:14.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /particle <name> [<pos>]
-[30Apr2025 23:37:14.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /place (feature|jigsaw|structure|template)
-[30Apr2025 23:37:14.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /playsound <sound> (master|music|record|weather|block|hostile|neutral|player|ambient|voice)
-[30Apr2025 23:37:14.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /reload
-[30Apr2025 23:37:14.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /recipe (give|take)
-[30Apr2025 23:37:14.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /return <value>
-[30Apr2025 23:37:14.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ride <target> (mount|dismount)
-[30Apr2025 23:37:14.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /say <message>
-[30Apr2025 23:37:14.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /schedule (function|clear)
-[30Apr2025 23:37:14.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /scoreboard (objectives|players)
-[30Apr2025 23:37:14.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /seed
-[30Apr2025 23:37:14.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setblock <pos> <block> [destroy|keep|replace]
-[30Apr2025 23:37:14.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spawnpoint [<targets>]
-[30Apr2025 23:37:14.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setworldspawn [<pos>]
-[30Apr2025 23:37:14.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spectate [<target>]
-[30Apr2025 23:37:14.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
-[30Apr2025 23:37:14.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
-[30Apr2025 23:37:14.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /summon <entity> [<pos>]
-[30Apr2025 23:37:14.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tag <targets> (add|remove|list)
-[30Apr2025 23:37:14.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /team (list|add|remove|empty|join|leave|modify)
-[30Apr2025 23:37:14.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /teammsg <message>
-[30Apr2025 23:37:14.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tm -> teammsg
-[30Apr2025 23:37:14.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /teleport (<location>|<destination>|<targets>)
-[30Apr2025 23:37:14.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tp -> teleport
-[30Apr2025 23:37:14.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tellraw <targets> <message>
-[30Apr2025 23:37:14.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /time (set|add|query)
-[30Apr2025 23:37:14.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
-[30Apr2025 23:37:14.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /trigger <objective> [add|set]
-[30Apr2025 23:37:14.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /weather (clear|rain|thunder)
-[30Apr2025 23:37:14.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /worldborder (add|set|center|damage|get|warning)
-[30Apr2025 23:37:14.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /jfr (start|stop)
-[30Apr2025 23:37:14.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ban-ip <target> [<reason>]
-[30Apr2025 23:37:14.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /banlist [ips|players]
-[30Apr2025 23:37:14.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ban <targets> [<reason>]
-[30Apr2025 23:37:14.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /deop <targets>
-[30Apr2025 23:37:14.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /op <targets>
-[30Apr2025 23:37:14.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /pardon <targets>
-[30Apr2025 23:37:14.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /pardon-ip <target>
-[30Apr2025 23:37:14.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /perf (start|stop)
-[30Apr2025 23:37:14.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-all [flush]
-[30Apr2025 23:37:14.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-off
-[30Apr2025 23:37:14.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-on
-[30Apr2025 23:37:14.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setidletimeout <minutes>
-[30Apr2025 23:37:14.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /stop
-[30Apr2025 23:37:14.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /whitelist (on|off|list|add|remove|reload)
-[30Apr2025 23:37:14.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /forge (tps|track|entity|generate|dimensions|mods|tags)
-[30Apr2025 23:37:14.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /config showfile <mod> <type>
-[30Apr2025 23:38:06.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[30Apr2025 23:38:06.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[30Apr2025 23:38:06.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[30Apr2025 23:38:07.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[30Apr2025 23:38:09.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[30Apr2025 23:38:09.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[30Apr2025 23:38:09.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[30Apr2025 23:38:09.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[30Apr2025 23:38:09.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[30Apr2025 23:38:09.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[05:49:38] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[05:49:38] [Server thread/INFO]: Loading properties
+[05:49:38] [Server thread/INFO]: Default game type: SURVIVAL
+[05:49:38] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[05:49:38] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[05:49:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:49:38] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:49:38] [Server thread/INFO]: Debug logging is disabled
+[05:49:38] [Server thread/INFO]: Data value allowed items: 
+[05:49:38] [Server thread/INFO]: Generating keypair
+[05:49:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:49:38] [Server thread/INFO]: Using epoll channel type
+[05:49:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:49:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:49:38] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:49:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:49:38] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[05:49:38] [Server thread/INFO]: Preparing level "world"
+[05:49:38] [Server thread/INFO]: -------- World Settings For [world] --------
+[05:49:38] [Server thread/INFO]: Mob Spawn Range: 4
+[05:49:38] [Server thread/INFO]: Anti X-Ray: true
+[05:49:38] [Server thread/INFO]: 	Engine Mode: 1
+[05:49:38] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[05:49:38] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[05:49:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[05:49:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[05:49:38] [Server thread/INFO]: Cane Growth Modifier: 100%
+[05:49:38] [Server thread/INFO]: Melon Growth Modifier: 100%
+[05:49:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[05:49:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[05:49:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[05:49:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[05:49:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[05:49:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[05:49:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[05:49:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[05:49:38] [Server thread/INFO]: Random Lighting Updates: false
+[05:49:38] [Server thread/INFO]: Structure Info Saving: true
+[05:49:38] [Server thread/INFO]: Sending up to 10 chunks per packet
+[05:49:38] [Server thread/INFO]: Max Entity Collisions: 8
+[05:49:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[05:49:38] [Server thread/INFO]: Max TNT Explosions: 100
+[05:49:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[05:49:38] [Server thread/INFO]: Item Despawn Rate: 6000
+[05:49:38] [Server thread/INFO]: Item Merge Radius: 2.5
+[05:49:38] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[05:49:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[05:49:38] [Server thread/INFO]: View Distance: 10
+[05:49:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[05:49:38] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[05:49:38] [Server thread/INFO]: Clear tick list: false
+[05:49:38] [Server thread/INFO]: Experience Merge Radius: 3.0
+[05:49:38] [Server thread/INFO]: -------- World Settings For [world] --------
+[05:49:38] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[05:49:38] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[05:49:38] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[05:49:38] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[05:49:38] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[05:49:38] [Server thread/INFO]: Water over lava flow speed: 5
+[05:49:38] [Server thread/INFO]: Fix TNT cannons: false
+[05:49:38] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[05:49:38] [Server thread/INFO]: Keep spawn chunk loaded: true
+[05:49:38] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[05:49:38] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[05:49:38] [Server thread/INFO]: World async lighting: false
+[05:49:38] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[05:49:38] [Server thread/INFO]: Mob Spawn Range: 4
+[05:49:38] [Server thread/INFO]: Anti X-Ray: true
+[05:49:38] [Server thread/INFO]: 	Engine Mode: 1
+[05:49:38] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[05:49:38] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[05:49:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[05:49:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[05:49:38] [Server thread/INFO]: Cane Growth Modifier: 100%
+[05:49:38] [Server thread/INFO]: Melon Growth Modifier: 100%
+[05:49:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[05:49:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[05:49:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[05:49:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[05:49:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[05:49:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[05:49:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[05:49:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[05:49:38] [Server thread/INFO]: Random Lighting Updates: false
+[05:49:38] [Server thread/INFO]: Structure Info Saving: true
+[05:49:38] [Server thread/INFO]: Sending up to 10 chunks per packet
+[05:49:38] [Server thread/INFO]: Max Entity Collisions: 8
+[05:49:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[05:49:38] [Server thread/INFO]: Max TNT Explosions: 100
+[05:49:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[05:49:38] [Server thread/INFO]: Item Despawn Rate: 6000
+[05:49:38] [Server thread/INFO]: Item Merge Radius: 2.5
+[05:49:38] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[05:49:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[05:49:38] [Server thread/INFO]: View Distance: 10
+[05:49:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[05:49:38] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[05:49:38] [Server thread/INFO]: Clear tick list: false
+[05:49:38] [Server thread/INFO]: Experience Merge Radius: 3.0
+[05:49:38] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[05:49:38] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[05:49:38] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[05:49:38] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[05:49:38] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[05:49:38] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[05:49:38] [Server thread/INFO]: Water over lava flow speed: 5
+[05:49:38] [Server thread/INFO]: Fix TNT cannons: false
+[05:49:38] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[05:49:38] [Server thread/INFO]: Keep spawn chunk loaded: true
+[05:49:38] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[05:49:38] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[05:49:38] [Server thread/INFO]: World async lighting: false
+[05:49:38] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[05:49:38] [Server thread/INFO]: Mob Spawn Range: 4
+[05:49:38] [Server thread/INFO]: Anti X-Ray: true
+[05:49:38] [Server thread/INFO]: 	Engine Mode: 1
+[05:49:38] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[05:49:38] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[05:49:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[05:49:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[05:49:38] [Server thread/INFO]: Cane Growth Modifier: 100%
+[05:49:38] [Server thread/INFO]: Melon Growth Modifier: 100%
+[05:49:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[05:49:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[05:49:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[05:49:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[05:49:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[05:49:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[05:49:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[05:49:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[05:49:38] [Server thread/INFO]: Random Lighting Updates: false
+[05:49:38] [Server thread/INFO]: Structure Info Saving: true
+[05:49:38] [Server thread/INFO]: Sending up to 10 chunks per packet
+[05:49:38] [Server thread/INFO]: Max Entity Collisions: 8
+[05:49:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[05:49:38] [Server thread/INFO]: Max TNT Explosions: 100
+[05:49:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[05:49:38] [Server thread/INFO]: Item Despawn Rate: 6000
+[05:49:38] [Server thread/INFO]: Item Merge Radius: 2.5
+[05:49:38] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[05:49:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[05:49:38] [Server thread/INFO]: View Distance: 10
+[05:49:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[05:49:38] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[05:49:38] [Server thread/INFO]: Clear tick list: false
+[05:49:38] [Server thread/INFO]: Experience Merge Radius: 3.0
+[05:49:38] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[05:49:38] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[05:49:38] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[05:49:38] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[05:49:38] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[05:49:38] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[05:49:38] [Server thread/INFO]: Water over lava flow speed: 5
+[05:49:38] [Server thread/INFO]: Fix TNT cannons: false
+[05:49:38] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[05:49:38] [Server thread/INFO]: Keep spawn chunk loaded: true
+[05:49:38] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[05:49:38] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[05:49:38] [Server thread/INFO]: World async lighting: false
+[05:49:38] [Server thread/INFO]: Preparing start region for level 0 (Seed: 2277056542110273489)
+[05:49:39] [Server thread/INFO]: Preparing start region for level 1 (Seed: 2277056542110273489)
+[05:49:40] [Server thread/INFO]: Preparing start region for level 2 (Seed: 2277056542110273489)
+[05:49:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:49:40] [Server thread/INFO]: Done (1.479s)! For help, type "help" or "?"
+[05:49:40] [Server thread/INFO]: Timings Reset
+[05:50:16] [Thread-6/INFO]: UUID of player KaliOS is 6bb179c3-1137-3267-9ff6-502a52a83cda
+[05:50:16] [Server thread/INFO]: KaliOS[/127.127.128.20:59259] logged in with entity id 245 at ([world]-90.5, 64.0, 243.5)
+[05:50:38] [Server thread/INFO]: Opped KaliOS
+[05:50:52] [Server thread/INFO]: KaliOS issued server command: /gm 1
+[05:51:01] [Server thread/INFO]: KaliOS issued server command: /gamemode 1
+[05:51:01] [Server thread/INFO]: [KaliOS: Set own game mode to Creative Mode]
+[05:51:28] [Server thread/INFO]: KaliOS issued server command: /plugins
+[05:52:42] [Server thread/INFO]: KaliOS issued server command: /day
+[05:53:17] [Server thread/INFO]: KaliOS issued server command: /say
+[05:53:36] [Server thread/INFO]: KaliOS issued server command: /weather day
+[05:53:43] [Server thread/INFO]: KaliOS issued server command: /weather clear
+[05:53:43] [Server thread/INFO]: [KaliOS: Changing to clear weather]
+[05:53:55] [Server thread/INFO]: KaliOS issued server command: /weather rain
+[05:53:55] [Server thread/INFO]: [KaliOS: Changing to rainy weather]
+[05:53:59] [Server thread/INFO]: KaliOS issued server command: /weather rain
+[05:53:59] [Server thread/INFO]: [KaliOS: Changing to rainy weather]
+[05:54:02] [Server thread/INFO]: KaliOS issued server command: /weather clear
+[05:54:02] [Server thread/INFO]: [KaliOS: Changing to clear weather]
+[05:54:21] [Server thread/INFO]: KaliOS issued server command: /weather hunder
+[05:54:29] [Server thread/INFO]: KaliOS issued server command: /time
+[05:54:34] [Server thread/INFO]: KaliOS issued server command: /time set
+[05:54:37] [Server thread/INFO]: KaliOS issued server command: /time day
+[05:54:42] [Server thread/INFO]: KaliOS issued server command: /time add day
+[05:54:42] [Server thread/INFO]: [KaliOS: 'day' is not a valid number]
+[05:55:09] [Server thread/INFO]: KaliOS has just earned the achievement [Taking Inventory]
+[05:55:12] [Server thread/INFO]: KaliOS lost connection: Disconnected
+[05:55:12] [Server thread/INFO]: KaliOS left the game.
